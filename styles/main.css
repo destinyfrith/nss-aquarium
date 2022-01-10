@@ -1,37 +1,52 @@
-.title {
+
+header {
 text-align: center;
-color: blue;
+color: rgb(36, 38, 136);
+font-size: 40px;
 }
 
 .collection {
-border-style: solid;
 display: flex;
-flex-direction: column;
-width: 20%;
-}
+padding: 3px;
 
-.travel_tips {
-   
- 
 }
 
 
-.locations {
+.locationTravelContainer {
+    width: 40%;
+    border: rgb(30, 153, 210) dotted 2px;
+    padding: 3px;
     
 }
 
-.martins_tips {
+.locationContainer {
+    list-style-position: inside;
+    text-align: center;
+    border:rgb(0, 153, 210) 1px dotted;
+    padding: 5px;
+}
+
+.travelContainer {
+    text-align: center;
+    list-style-position: inside;
+    border:rgb(0, 153, 210) 1px dotted;
+    padding: 5px;
+}
+
+.careContainer {
+    width: 20%;
+    border: rgb(0, 153, 210) dotted 2px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.fishContainer {
+    max-width:40%;
+    border: rgb(0, 153, 210) dotted 2px;
     
 }
 
-.fish_photo {
- 
-    
-}
-
-.flexit {
-    display: flex;
-
-    padding: 20px;
-
+img {
+    max-width:100%;
+    max-height:100%; 
 }
